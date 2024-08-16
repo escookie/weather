@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+body{
+    background: url(https://previews.123rf.com/images/pohodka/pohodka1807/pohodka180700037/108184654-raindrops-on-the-glass-and-storm-clouds-in-the-background-rainy-weather-forecast.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #fff;
+}
+.weather-box{
+    border: 1px solid rgba(214, 214, 214, 0.7);
+    padding: 5%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.weather-box > div:first-child{
+    font-weight: 700;
+    color: rgb(164, 238, 254);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.pt2{padding-top: 2%;}
+.pb5{padding-bottom: 5%;}
